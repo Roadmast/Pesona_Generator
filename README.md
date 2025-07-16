@@ -34,7 +34,7 @@ Generate detailed, psychologically grounded user personas from Reddit profiles. 
    ```bash
    git clone https://github.com/yourusername/pesona_generator.git
    cd pesona_generator
-````
+    ```
 
 2. **(Optional) Create a virtual environment**:
 
