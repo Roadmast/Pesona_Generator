@@ -1,4 +1,5 @@
 import os
+import sys
 from crewai import Crew
 from schema import RedditExtractionOutput
 from agents.data_extractor import data_extract  
@@ -37,7 +38,8 @@ def build_user_persona(reddit_url: str) -> RedditExtractionOutput:
     return result.raw
 
 if __name__ == "__main__":
-    reddit_url = input("Enter the Reddit URL: ")
+    
+    reddit_url = sys.argv[1]
     response = build_user_persona(reddit_url)
     # Save persona to text file
     output_dir = "personas"
