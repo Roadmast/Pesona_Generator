@@ -1,5 +1,3 @@
----
-````markdown
 # Persona Generator
 
 Generate detailed, psychologically grounded user personas from Reddit profiles. This tool scrapes a user's Reddit activity, analyzes it through specialized agents, and produces a complete persona file — including cited Reddit posts and behavioral insights.
